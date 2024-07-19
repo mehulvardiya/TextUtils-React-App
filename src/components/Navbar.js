@@ -25,7 +25,7 @@ export default function Navbar(props) {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <Link className="nav-link active" to="/">
+            <Link className="nav-link" aria-current="page" to="/">
               Home <span className="sr-only">(current)</span>
             </Link>
           </li>
